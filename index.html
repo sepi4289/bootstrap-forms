@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title> Quiz: Game of Thrones </title>
+
+  <link rel="stylesheet" href="css/added_styles.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class= "row">
+      <div class = "col-12 col-sm-10 col-md-8 col-lg-6 col-xl-6">
+
+          <h1> Game of Thrones Quiz </h1>
+
+           <label class= "form-control-label"> Game of Thrones is an American fantasy drama television series create by David Benioff and D.B Weiss.
+						  It is an adpation of a Song of Ice and Fire, George R. R. Martin's series of fantasy novels. Game of Thrones
+							have several plot lines and several characters that will make you fall in love or wish upon them the most abominable death.
+							the show center on three primary story arcs.The first story arc centers on the Iron Throne of the Seven Kingdoms
+							 and follows a web of alliances and conflicts among the dynastic noble families either vying to claim the throne
+							 or fighting for independence from the throne. The second story arc focuses on the last descendant of
+							 the realm's deposed ruling dynasty, exiled and plotting a return to the throne. The third story arc centers on
+							 the longstanding brotherhood charged with defending the realm against the ancient threats of the fierce peoples
+							 and legendary creatures that lie far north, and an impending winter that threatens the realm.
+              To know more about Game of Thrones <a href="https://en.wikipedia.org/wiki/Game_of_Thrones" target="_blank">click here</a>.
+							 There are millions of game of throne fans in the world. Are you one of them? Test your knowledge! </label>
+
+         <form>
+
+             <!-- Question 1 text field -->
+        <div class="form-group">
+
+         <label class="form-control-label"> When did the first episode of season 3 aired? </label>
+
+         <input class="form-control form-control-sm" type="text" name="answer" id="aired" placeholder="Type Date Here">
+
+        </div>
+
+                <!-- Question 2 text field -->
+        <div class="form-group">
+
+        <label class="form-control-label"> How many house are in Game of Thrones? </label>
+
+         <input class="form-control form-control-sm" type="text" name="answer" id="house" placeholder="Type Numer Here">
+
+         </div>
+
+
+						  <!-- Question 3 radioboxes with at less 4 boxes in the set -->
+
+            <div class="form-group has-success">
+
+           <label class="form-control-label">  Who created the television series Game of Thrones?</label>
+
+
+           <div class="form-check">
+
+         <label class="form-check-label">
+           <input class= "form-check-input" type=radio name="creators" value="Selena Gomez & Justin Bieber"> Selena Gomez & Justin Bieber
+				 </label>
+
+          </div>
+
+         <div class="form-check">
+
+           <label class="form-check-label">
+						 <input class= "form-check-input" type="radio" name="creators" value="David Benioff & D.B Weiss"> David Benioff & D.B Weiss
+					 </label>
+
+               </div>
+
+           <div class="form-check">
+
+               <label class="form-check-label">
+								 <input class= "form-check-input" type="radio" name="creators" value="Steven Spielberg"> Steven Spielberg
+							 </label>
+
+              </div>
+
+              <div class="form-check">
+
+           <label class="form-check-label">
+						 <input  class= "form-check-input" type="radio" name="creators" value="Stephen King"> Stephen King
+					 </label>
+
+              </div>
+                 </div>
+
+                        <!-- Question 4 checkboxes with at less 4 boxes in the set -->
+
+         <div class="form-group">  <!-- form group start/ question 4 -->
+                 <label class="form-control-label"> Which of the following are children of Lord Eddard "Ned" Stark?</label>
+
+									   <div class="form-check">
+											 <label class="form-check-label">
+				                  <input class="form-check-input" type="checkbox" name="illegitimate" value="Jamie Stark"> Jamie Stark
+												</label>
+									   </div>
+
+									   <div class="form-check">
+											 <label class="form-check-label">
+											    <input class="form-check-input" type="checkbox" name="illegitimate" value="Arya Stark"> Arya Stark
+												</label>
+									   </div>
+
+									   <div class="form-check">
+											 <label class="form-check-label">
+								 			    <input class="form-check-input" type="checkbox" name="illegitimate" value="Jon Snow"> Jon Snow
+													</label>
+								 	   </div>
+
+									   <div class="form-check">
+											 <label class="form-check-label">
+								 			    <input class="form-check-input" type="checkbox" name="illegitimate" value="Khal Stark"> Khal Stark
+													</label>
+								 	   </div>
+
+		        </div> <!-- form group - end of question 4  -->
+
+						                  <div class="form-group"> <!--  start of form group/question 5  -->
+						                    <label class= "form-control-label"> Who is the Husband of Cersei Lannister in Game of Thrones? </label>
+
+						                      <select class="form-control form-control-sm" name="Husband" id="HusbandofCerseiLannister">
+						                        <option value="0"> Select One </option>
+						                        <option value="Tywin"> Lord Tywin Lannister</option>
+						                        <option value="Jaime Lannister"> Jaime Lannister </option>
+						                        <option value="Theon Greyjoy ">Theon Greyjoy</option>
+						                        <option value=" Daenerys Targaryen "> Daenerys Targaryen</option>
+						                        <option value="Robert Baratheon">Robert Baratheon</option>
+						                        <option value="Sansa Stark"> Sansa Stark</option>
+						                      </select>
+
+						                    </div> <!-- end of form group/question 5  -->
+
+         <div class="form-group"> <!-- start of form group/question 6  -->
+                 <label class= "form-control-label"> Who is your favorite Character on Game of Thrones and Why? </label>
+                   <textarea class= "form-control form-control-lg" name="character" id="favoritecharacter" rows="3">
+									 </textarea>
+				     </div><!-- end of form group/question 6  -->
+
+						 <div class="form-group"> <!-- button  -->
+						 	<button type="submit" class="btn btn-outline-success" value="submit"> Submit </button>
+						 	<button type="reset" class="btn btn-outline-danger" value="start over"> Reset </button>
+
+						 </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+<script src="js/bootsrap.js"></script>
+<script src="js/bootsrap.min.js"></script>
+<script src="js/jquery-slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/ie10-viewport-bug-workaround.js.js"></script>
+</body>
+</html>
